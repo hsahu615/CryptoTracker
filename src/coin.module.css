@@ -1,0 +1,80 @@
+.coin {
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0);
+}
+.row {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 10px;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  justify-content: space-between;
+}
+.row:nth-child(odd) {
+  background-color: #f8f9f9;
+}
+
+.namesymbol,
+.pricepercentage,
+.volumemarket {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.namesymbol p {
+  width: 80px;
+  margin: 0 20px;
+}
+.pricepercentage p {
+  width: 80px;
+  margin: 0 20px;
+}
+.volumemarket p {
+  width: 150px;
+  margin: 0;
+  margin-left: 20px;
+}
+.namesymbol img {
+  height: 30px;
+  width: 30px;
+}
+
+.price {
+  width: 100px;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.head1 {
+  display: flex;
+  gap: 70px;
+  text-transform: uppercase;
+  margin-left: 50px;
+  font-weight: 900;
+}
+
+.head2 {
+  display: flex;
+  text-transform: uppercase;
+  margin-left: 40px;
+  gap: 20px;
+  font-weight: 900;
+}
+
+.head3 {
+  display: flex;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-right: 75px;
+  gap: 100px;
+}
